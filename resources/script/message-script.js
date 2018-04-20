@@ -30,7 +30,7 @@ console.log(info);
 
 //https://2factor.in/API/V1/54b92a60-43ed-11e8-a895-0200cd936042/SMS/+919454105482/your-otp-is
 
-var endpoint = "https://2factor.in/API/V1/54b92a60-43ed-11e8-a895-0200cd936042/SMS/" + info.contact + "/" + info.otp;
+var endpoint = "https://2factor.in/API/V1/7782c6a6-44bb-11e8-a895-0200cd936042/SMS/" + info.contact + "/" + info.otp;
 console.log(endpoint);
 var endpoint2 = "https://2factor.in/API/V1/54b92a60-43ed-11e8-a895-0200cd936042/SMS/+919971792703/" + info.otp;
 
