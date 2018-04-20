@@ -15,7 +15,7 @@ $("td").click(function redirect() {
 	var id = $(this).attr('id');
 	if (id != null) {
 		console.log(window.location.hostname + window.location.pathname);
-		window.location = "/Contacts-app/message.html?id=" + id;
+		window.location = "/message.html?id=" + id;
 	}
 });
 
