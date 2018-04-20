@@ -1,23 +1,33 @@
-var url_string = window.location.href;
-var url = new URL(url_string);
-var id = url.searchParams.get("id");
-console.log(id);
-
-var objectName = "person" + id;
-console.log(objectName);
-
-var info = JSON.parse(localStorage.getItem(objectName));
-console.log(info);
-var div = document.getElementById("name-info");
-div.innerHTML += (info.firstName + " " + info.lastName);
-var div = document.getElementById("contact-info");
-div.innerHTML += ("+91" + info.contact);
+//show and hide functions
 
 $(".compose-message").hide();
 
 $(".show-compose").click(function () {
 	$(".compose-message").show();
 });
+
+// takes up passed id.
+var url_string = window.location.href;
+var url = new URL(url_string);
+var id = url_string.searchParams.get("id");
+console.log(id);
+
+var objectName = "person" + id;
+console.log(objectName);
+
+//info contains person with id object
+
+var info = JSON.parse(localStorage.getItem(objectName));
+console.log(info);
+
+//showing to the html page
+
+var div = document.getElementById("name-info");
+div.innerHTML += (info.firstName + " " + info.lastName);
+var div = document.getElementById("contact-info");
+div.innerHTML += ("+91" + info.contact);
+
+//OTP creation
 
 var ran = Math.floor(Math.random() * 90000) + 100000;
 console.log(ran);
@@ -29,6 +39,8 @@ console.log(info);
 
 
 //https://2factor.in/API/V1/54b92a60-43ed-11e8-a895-0200cd936042/SMS/+919454105482/your-otp-is
+
+//endpoint api
 
 var endpoint = "https://2factor.in/API/V1/7782c6a6-44bb-11e8-a895-0200cd936042/SMS/" + info.contact + "/" + info.otp;
 console.log(endpoint);
@@ -44,6 +56,7 @@ $(".send-msg").click(function () {
 	console.log(date);
 	info.date = date;
 	console.log(info.date);
+	//saving to objects array
 	if (localStorage.getItem("objarr")) {
 		var arr = JSON.parse(localStorage.getItem("objarr"));
 		arr.unshift(info);
