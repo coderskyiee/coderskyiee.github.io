@@ -11,7 +11,7 @@ addRow('mytable', person3);
 addRow('mytable', person4);
 addRow('mytable', person5);
 
-$("tr").click(function redirect() {
+$("td").click(function redirect() {
 	var id = $(this).attr('id');
 	if (id != null) {
 		console.log(window.location.hostname + window.location.pathname);
