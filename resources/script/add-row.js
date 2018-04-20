@@ -1,6 +1,6 @@
 function addRow(tableID, person) {
-	var rowElement = $('<tr><td>'+ person.fullname() +'</td></tr>')
-	$('#'+tableID).append(rowElement);
+	var rowElement = $('<tr><td id=' + person.id + '>' + person.fullname() + '</td></tr>');
+	$('#' + tableID).append(rowElement);
 
 }
 
