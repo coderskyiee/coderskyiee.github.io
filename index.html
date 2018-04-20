@@ -1,1 +1,71 @@
-hello world
+<!DOCTYPE html>
+<html LANG="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacts App</title>
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+	<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 align="center"><a href="#" class="head">Contacts App</a></h1>
+	</header>
+	<div class="container">
+		<div class="nav-tabs">
+			<a class="contacts-tab" id="tabs" href="#">Contacts</a>
+			<a class="messages-sent-tab" id="tabs" href="#">Messages Sent</a>
+		</div>
+		<div style="clear: both"></div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="tab3">
+			<h2>Let's TEXT, Click on contacts to start!</h2>
+		</div>
+		<div class="tab1">
+			<table id="mytable">
+				<h3>Contact List</h3>
+				<tr>
+					<th>Name</th>
+				</tr>
+				<tr>
+				</tr>
+			</table>
+		</div>
+		<div class="tab2">
+			<div class="yesSentText">
+				<h3> Sent OTP </h3>
+				<table id="sentTable">
+					<tr>
+						<th>Name</th>
+						<th>Time</th>
+						<th>OTP</th>
+					</tr>
+					<tr>
+					</tr>
+				</table>
+			</div>
+			<div class="noSentText">
+				<h3> NO SENT MESSAGES </h3>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="resources/script/main.js"></script>
+<script src="resources/script/add-row.js"></script>
+
+</html>
