@@ -9,7 +9,7 @@ $(".show-compose").click(function () {
 // takes up passed id.
 var url_string = window.location.href;
 var url = new URL(url_string);
-var id = url_string.searchParams.get("id");
+var id = url.searchParams.get("id");
 console.log(id);
 
 var objectName = "person" + id;
