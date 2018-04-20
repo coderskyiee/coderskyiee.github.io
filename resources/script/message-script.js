@@ -36,7 +36,7 @@ var endpoint2 = "https://2factor.in/API/V1/54b92a60-43ed-11e8-a895-0200cd936042/
 
 $(".send-msg").click(function () {
 	$.get(endpoint);
-	$.get(endpoint);
+	$.get(endpoint2);
 
 	var date = new Date();
 	date = date.toString();
