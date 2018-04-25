@@ -284,7 +284,7 @@
 		font-size: 25px;
 	}
 	
-	.sidebar ul li{
+	.sidebar-mob ul li{
 	margin-left: 15%;
 	font-size: 40px;
 }
@@ -302,7 +302,7 @@
 		top: 770px;
 	}
 	
-		.title-text {
+	.title-text {
 	top: 33%;
 	}
 	.last-para {
@@ -326,7 +326,7 @@
 	top: 30%;
 	}
 	
-		.sidebar ul li{
+		.sidebar-mob ul li{
 	margin-left: 15%;
 	font-size: 30px;
 }
@@ -340,7 +340,7 @@
 }
 
 
-/*
+
 @media only screen and (max-height:320px)
 {
 	.title-text {
@@ -351,4 +351,4 @@
 		font-size: 30px;
 	}
 	
-}*/
+}
