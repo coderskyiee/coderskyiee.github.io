@@ -45,7 +45,7 @@ $("#comment-btn").click(function (e) {
 			var l = comment.length;
 			var wcity = comment.slice(9, l);
 			console.log(wcity);
-			var url = 'http://api.openweathermap.org/data/2.5/forecast?units=metric&APPID=105a01a184626ca822bc272f00e1f386&q=' + wcity;
+			var url = 'https://api.openweathermap.org/data/2.5/forecast?units=metric&APPID=105a01a184626ca822bc272f00e1f386&q=' + wcity;
 			$.get(url, function (data, status) {
 				if (status) {
 					temp = data.list[0].main.temp;
