@@ -8,12 +8,15 @@ $("#comment").keydown(function (e) {
 $('.err').hide();
 //$('.re-size').hide();
 //
-//$(window).resize(function () {
-//    var viewportWidth = $(window).width();
-//    if (viewportWidth < 1023) {
-//		$('.re-size').show();
-//    }
-//});
+$(window).load(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 468) {
+		$('i').removeClass('ion-ios-arrow-thin-left');
+		$('i').removeClass('ion-ios-arrow-thin-right');
+    }
+});
+
+		
 
 $("#comment-btn").click(function (e) {
 	e.preventDefault();
