@@ -340,7 +340,8 @@
 }
 
 
-@media only screen and (max-height:360px)
+/*
+@media only screen and (max-height:320px)
 {
 	.title-text {
 	top: 70%;
@@ -350,4 +351,4 @@
 		font-size: 30px;
 	}
 	
-}
+}*/
