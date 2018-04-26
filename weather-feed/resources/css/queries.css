@@ -94,7 +94,7 @@
 		display: none;
 	}
 	.mob {
-		display: contents;
+		display: inline-block;
 	}
 	.title-text {
 		top: 70%;
@@ -327,6 +327,11 @@
 }
 
 @media only screen and (max-height:320px) {
+	
+		.mob {
+		display: inline-block;
+	}
+	
 	.title-text {
 		top: 70%;
 	}
