@@ -94,8 +94,9 @@
 		display: none;
 	}
 	.mob {
-		display:contents;
+		display:inline-block;
 	}
+	
 	.title-text {
 		top: 70%;
 		width: 90%;
@@ -149,6 +150,11 @@
 	.last-para {
 		margin-top: 240px;
 	}
+	.mob ul li{
+	display: inline-block;
+	margin-left:20%;
+	font-size: 25px;
+}
 }
 
 
@@ -165,7 +171,7 @@
 		max-height: 60vh;
 	}
 	.title-text {
-		top: 35%;
+		top: 40%;
 	}
 	.title-text h1 {
 		font-size: 30px;
@@ -271,11 +277,7 @@
 	.title-text {
 		top: 40%;
 	}
-	.mob ul {
-		-ms-flex-line-pack: center;
-		align-content: center;
-		text-align: center;
-	}
+	
 	.mob ul li {
 		display: inline-block;
 		margin-left: 20%;
@@ -290,15 +292,25 @@
 	.last-para {
 		margin-top: 250px;
 	}
+	.weather-box h2 {
+		font-size: 25px;
+	}
 }
 
 @media only screen and (max-width: 375px) {
+	
+
+	
 	.text-img {
 		top: 770px;
 	}
 	.title-text {
-		top: 33%;
+		top: 48%;
 	}
+	.title-text h1 {
+		font-size: 20px;
+	}
+	
 	.last-para {
 		margin-top: 230px;
 	}
@@ -315,9 +327,13 @@
 }
 
 @media only screen and (max-width: 330px) {
-	.title-text {
-		top: 30%;
+	
+			.mob ul li {
+		display: inline-block;
+		margin-left: 10%;
+		font-size: 25px;
 	}
+
 	.text-img {
 		top: 840px;
 	}
@@ -327,8 +343,8 @@
 }
 
 @media only screen and (max-height:320px) {
-		
 	
+
 	
 	.title-text {
 		top: 70%;

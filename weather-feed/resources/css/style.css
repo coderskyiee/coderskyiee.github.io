@@ -112,25 +112,24 @@ i {
 
 /*mobile sidebar*/
 
-.mob {
+.mob{
 	display: none;
-}
-
-.mob ul {
-	-ms-flex-line-pack: center;
-	align-content: center;
+	width: 100%;
 	text-align: center;
 }
 
-.mob ul li {
+
+.mob ul li{
 	display: inline-block;
-	margin-left: 20%;
+	margin-left:25%;
 	font-size: 30px;
+	
 }
 
-.mob ul li:first-child {
+.mob ul li:first-child{
 	margin-left: 0;
 }
+
 
 
 /*section news text*/
