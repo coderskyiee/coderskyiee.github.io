@@ -1,0 +1,9 @@
+.blog-body {
+	background-color: black;
+	border: 12px solid white;
+	color: white;
+	margin-top: 50px;
+	max-width: 1200px;
+	display: block;
+	align-content: center;
+}

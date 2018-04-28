@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1200px)
+{
+
+	.row {
+		padding: 0 2%;
+	}
+}
+
+@media only screen and (max-width:1141px)
+{
+	html {
+		font-size: 18px;
+	}
+	
+	.logo{
+	float: left;
+	height: 100px;
+	width: auto;
+	padding: 10px;
+	}
+	
+	.nav-bar a li{
+	margin-left: 20px;
+	margin-top:30px;	
+	}
+	
+	.career-box {
+		margin-top: 30px;
+	}
+}
+
+/* Small Tablet to big Tablet 768 to 1023px */
+@media only screen and (max-width: 1023px)
+{
+	html{
+		font-size: 16px;
+	}
+	
+	.app-img{
+		height: 400px
+	}
+	
+	.about-app {
+		margin-top: 30px;
+	}
+	
+	.app-store {
+	height: 55px;
+	}
+	
+	i{
+	font-size: 80px;
+	}
+	
+	.social-links li a i {
+	font-size: 25px;
+}
+	
+}
+
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 768px)
+{
+	html{
+		font-size: 16px;
+	}
+	
+	.span_1_of_2 {
+		margin: 0;
+	}
+	
+	footer p{
+		padding: 10px 10px;
+	}
+	
+	.std {
+		width: 100%;
+	}
+	.std textarea {
+		height: 50px;
+	}
+	.btn{
+		margin-top: 0;
+	}
+	
+	.nav-bar {
+		display: none;
+	}
+	
+	nav {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+	}
+	
+	.logo{
+		height: 70px;
+		
+	}
+	
+	.nav-bar {
+		float:left;
+		
+	}
+	.nav-bar a {
+		text-decoration: none;
+	}
+	
+	.nav-bar a li:first-child{
+		margin-top: 10px
+	}
+	.nav-bar a li{
+	display: block;
+	text-decoration: none;
+	float: none;
+	list-style: none;
+	padding: 5px;
+	font-size: 80%;
+		color: black;
+	margin-left: 60px;
+	margin-top:4px;
+	margin-bottom: 10px;
+	
+	}
+	
+	.sticky .nav-bar a li {
+	padding: 5px;
+	font-size: 80%;
+	margin-left: 60px;
+	margin-top:4px;
+	margin-bottom: 10px;
+	}
+	
+
+	
+	.mobile-nav-icon { 
+		float: right;
+		display: inline-block;
+		margin-top: 10px;	
+	}
+
+}
+
+/* Small phones: 0 to 480px */
+@media only screen and (max-width: 480px)
+{
+	.app-img{
+		height: 300px
+	}
+	
+	header {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.8)),url(images/front-mob.jpg)
+
+	}
+	
+	.about-us-para {
+	column-count: 1;
+	}
+	
+	.contact-form {
+		width: 90%;
+	
+	}
+	
+	.social-links
+{
+    list-style: none;
+ 	float: none;
+	text-align: center;
+	align-content: center;
+	padding: 10px;
+}
+	.footer-nav
+{
+    list-style: none;
+    float:none;
+	text-align: center;
+}
+	.section-careers p {
+	font-size: 120%;
+	line-height: 1.5;
+}
+	.front-text-box {
+	top:50%;
+	left:10%;
+	right: 10%;
+	}
+	
+	.front-text-box h1 {
+	font-size: 180%;
+	}
+	.front-text-box h2 {
+	font-size: 100%;
+	}
+	.logo{
+		height: 70px;
+	}
+}

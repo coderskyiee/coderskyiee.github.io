@@ -1,0 +1,304 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url(https://lionessmagazine.com/wp-content/uploads/2016/02/thinking.jpg);
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	color: black;
+	font-family: 'Lato','Arial',sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+
+/*---------------------------------------*/
+/*Header*/
+/*--------------------------------------*/
+
+
+.nav-bar {
+	display: inline-block;
+	margin: 0;
+}
+
+.logo{
+	float: left;
+	height:100px;
+	width: auto;
+	padding: 10px;
+}
+
+.nav-bar a li{
+	float: left;
+	position: relative;
+	display: inline-block;
+	border: 1px solid #000;
+	padding: 10px;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	font-size: 110%;
+	font-weight: 400;
+	margin-left:35px;
+	margin-top: 20px;
+}
+
+
+/*sticky nav*/
+
+.sticky {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: #fff;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    z-index: 9999;
+}
+
+.sticky .logo
+{
+	float: left;
+	height: 70px;
+	width: auto;
+	padding: 10px;
+}
+
+.sticky .nav-bar a li{
+	padding: 8px;
+	font-size: 90%;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-top:15px;
+}
+
+
+.sticky .nav-bar a li:hover{
+	background-color: #000;
+	color: #ffffff;
+}
+
+
+.nav-bar a li:hover{
+	background-color: white;
+	color: #000;
+}
+
+
+
+
+.dp{
+	overflow: hidden;
+	padding: 15px;
+	border: 2px solid black;
+}
+.dp img {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	filter: grayscale(0);
+	transition-duration: 1s;
+	filter: opacity(0.6);
+}
+
+.dp p {
+	text-align: center;
+}
+
+.dp img:hover{
+	filter: grayscale(100);
+}
+
+
+/*--------------------------------*/
+/*Footer*/
+/*---------------------------------*/
+
+
+
+
+footer{
+    background-color: black;
+
+}
+.section-contact
+{	
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+.footer-nav
+{
+    list-style: none;
+    float:left;
+}
+.social-links
+{
+    list-style: none;
+    float:right;
+}
+
+.footer-nav li,
+.social-links li
+{
+    display:inline-block;
+    margin-right: 20px;   
+    
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child
+{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited
+{
+    text-decoration: none;
+    border:0;
+    font-size: 90%;
+    color: aliceblue;
+} 
+
+.footer-nav li a:hover,
+.footer-nav li a:active
+{
+    color:#f1c40f;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}
+
+.social-links li a:link,
+.social-links li a:visited
+{
+    font-size: 180%;
+    
+}
+.social-links li a i {
+	font-size: 35px;
+	color: white;
+}
+
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-instagram:hover {
+    
+  color:rgba(255, 188, 73, 0.84);
+  
+}
+
+.ion-social-linkedin:hover{
+	
+color: rgba(0,123,181,0.83);
+}
+
+/*------------------------------------------*/
+/* BLOG */
+/*------------------------------------------*/
+
+.pics img{
+	display: inline-block;
+	transform: scale(1.3);
+	width: 100%;
+	height: auto;
+}
+
+
+
+.pics{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 25%;
+	height: auto;
+    background-color: white;
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.textbox{
+	position: absolute;
+	top:0;
+	width:100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 1));
+	transition: 1s;
+	
+}
+
+.textbox p{
+	align-content: center;
+	margin: 0;
+	padding: 0;
+	top:180px;
+	margin-left: 10px;
+	position: absolute;
+	font-weight: 300;
+	font-size: 160%;
+	color: #fff;
+}
+
+
+.pics:hover .textbox p
+{	
+	transition: 1s;
+	transform: scale(0.9);
+}
+.pics:hover img
+{	
+	transition: 1s;
+	filter: grayscale(100%);
+	transform: scale(1.2);
+}
+
+.blog-list img {
+	width:100%;
+}
+
+.blog-list{
+	margin-top: 140px;
+	margin-bottom: 40px;
+}
+
+footer {
+	margin-top: 40px;
+}
+.ion-navicon-round,
+.ion-close-round{
+	font-size: 40px;
+}
+
+.mobile-nav-icon{
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
