@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html LANG="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacts App</title>
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 align="center"><a href="/" class="head">Contacts App</a></h1>
+	</header>
+		<h2>Send an OTP</h2>
+	<div class="container">
+		<div>
+			<h3 id="name-info"></h3>
+			<h4 id="contact-info"></h4>
+			<button class="show-compose">SEND MESSAGE</button>
+		</div>
+			<div class="compose-message">
+				 <textarea id="input-message" name="message" rows="5" cols="30">Hi. Your OTP is</textarea> 
+				<button class="send-msg">Send</button>
+			</div>
+	</div>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="resources/script/main.js"></script>
+	<script src="resources/script/message-script.js"></script>
+</html>
