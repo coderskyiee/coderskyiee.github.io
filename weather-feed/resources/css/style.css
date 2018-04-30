@@ -364,6 +364,8 @@ button {
 	border-radius: 50px;
 	color: white;
 	border: none;
+	position: relative;
+	top:-25px;
 }
 
 button:hover,
